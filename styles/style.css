@@ -1,0 +1,201 @@
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.span-color{
+    color: rgb(253, 110, 10);
+}
+.list-items{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.list-items a{
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.header-image{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    
+}
+/* */
+/* Button Uni */
+
+.btn-btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+}
+.btn-sownload .btn-btn{
+    width: 100px;
+    color: white;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.subtitle{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.title-name{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 50%;
+}
+
+/* ABOUT section start */
+.about-section{
+    margin: 100px 300px;
+    background-color: #FFF8F3;
+}
+.about-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.about-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.man-info-hade{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -30px;
+    margin-left: -10px;
+}
+.man-info-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+/* what I do SKIL sections */
+.second-section{
+    margin: 100px 300px;
+}
+.second-section-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.second-section-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.skil-second-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 300px;
+    gap: 30px;
+}
+.skils{
+    padding: 40px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* Summary Description */
+
+
+.summary-title{
+    text-align: center;
+}
+.summary-description{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px 300px;
+}
+.my-education{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.my-experience{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* Footer Section */
+
+.footer-container{
+    display: flex;
+    background: #FFF8F3;
+    margin: 0px 300px;
+    gap: 40px;
+}
+.footer-title{
+    width: 500px;
+}
+.footer-message-title .contact input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+}
+.footer-message-title .contact #message-box{
+    height: 60px;
+}
